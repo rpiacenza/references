@@ -3,12 +3,12 @@
 
 ##Características:
 - Vagrant trabaja dentro de una virtualbox.
-- Soluciona el problema de automatiziicón de instalación de software en las virtualboxes
+- Soluciona el problema de automatización de instalación de software en las virtualboxes
 - Sólo se usan archivos de configuración. Por lo que no es necesario mandar gigabytes
 
 ##Requisitos / Dependencias:
 1. Descarga e instalación de Virtualbox en el guest `sudo apt-get install virtualbox`
-2. Descarga e instalación de Vagrant `sudo apt-get install virtualbox`
+2. Descarga e instalación de Vagrant `sudo apt-get install vagrant`
 3. Descarga e instalación de Puppet `sudo apt-get install puppet puppetmaster facter`
 
 
@@ -28,14 +28,14 @@
 
 
 ####Recursos:
-[Boxes ya disponibles de vagrant](https://atlas.hashicorp.com/boxes/search)
-[Recursos Puppet](https://docs.puppet.com/puppet/latest/reference/type.html)
-[Módulos Puppet ya disponibles para usar](https://forge.puppetlabs.com/)
+- [Boxes ya disponibles de vagrant](https://atlas.hashicorp.com/boxes/search)
+- [Recursos Puppet](https://docs.puppet.com/puppet/latest/reference/type.html)
+- [Módulos Puppet ya disponibles para usar](https://forge.puppetlabs.com/)
 
 ####Referencias:
-[Cómo crear un entorno de desarrollo con Vagrant y Puppet](http://developerlover.com/crear-un-entorno-de-desarrollo-con-vagrant-y-puppet/)
-[Cómo utilizar módulos con Puppet](http://developerlover.com/como-crear-y-utilizar-los-modulos-de-puppet-con-vagrant/)
-[Libro de cocina rápido para Puppet](http://www.puppetcookbook.com/)
+- [Cómo crear un entorno de desarrollo con Vagrant y Puppet](http://developerlover.com/crear-un-entorno-de-desarrollo-con-vagrant-y-puppet/)
+- [Cómo utilizar módulos con Puppet](http://developerlover.com/como-crear-y-utilizar-los-modulos-de-puppet-con-vagrant/)
+- [Libro de cocina rápido para Puppet](http://www.puppetcookbook.com/)
 
 ---
 

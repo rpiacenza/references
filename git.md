@@ -22,7 +22,6 @@
 | `git rm main.php`                                                         | Marca el archivo main.php para ser eliminado de la carpeta actual                   |
 | `git reset HEAD main.php`                                                 | Desmarca un archivo marcado con **git commit**                                      |
 | `git checkout -- main.php`                                                | Revierte/Deshace los cambios del archivo a como estaba anteriormente                |
-| `git checkout etiqueta`                                                   | Muestra el log de cambios en una sola linea               |
 
 ###Comandos de Logs:
 | Comando                                                                   | Descripción                                                             |
