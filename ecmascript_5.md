@@ -1,6 +1,10 @@
 #Ecmascript 5
 *(by RMP)*
 
+###Especificaciones
+    - Ecma International http://www.ecma-international.org/ecma-262/7.0/index.html#prod-Module
+    - w3schools http://www.w3schools.com/jsref/default.asp
+
 ###Closures
 Es una función anónima que se ejecuta dentro de otra función.
 Caracterísicas:
@@ -88,4 +92,20 @@ var palabras = letras.reduce(function(valor_anterior_retornado, valor_actual, in
     return valor_anterior_retornado + valor_actual;
 });
 console.log(palabras);
+```
+
+
+###Iterar sobre propiedades de un objeto
+```
+var persona = {
+    nombre: "Rodrigo",
+    email: "rpiacenza@gmail.com",
+    saludar: function () {
+        return "Hola !";
+    }
+}
+
+for(var campo in persona) {
+    console.log(campo, persona[campo]);
+}
 ```
