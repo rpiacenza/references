@@ -24,12 +24,14 @@
 
 
 ###Paquetes de uso frecuente:
+Los paquetes se instalan con npm. Por ejemplo `npm install gulp-sass --save-dev`
 | Paquete                    | Descripción                                           |
 |----------------------------|-------------------------------------------------------|
 | `gulp-plumber`             | Previene pipes breakings                              |
 | `gulp-uglify`              | Minificar archivos                                    |
-| `gulp-rename`              | Renombra archivos *js*                                  |
-| `gulp-autoprefizer`        | Agregar prejifos a los archivos *css*                            |
+| `gulp-rename`              | Renombra archivos *js*                                |
+| `gulp-autoprefizer`        | Agregar prejifos a los archivos *css*                 |
+| `gulp-sass`                | Compilar archivos sass *sass*                         |
 | `del`                      | Elimina archivos y carpetas                           |
 
 ###Ejemplos de globs
